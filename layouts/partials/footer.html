@@ -1,0 +1,27 @@
+<footer class="page-footer">
+		<hr>
+		<ul class="page-footer-menu">
+		{{ range .Site.Menus.footer }}
+      <li><a href="{{.URL}}">{{.Pre }}{{ .Name }}</a></li>
+		{{ end }}
+		</ul>
+
+  {{ if .Site.Params.showPoweredBy}}
+    <p>
+      Powered by <a href="https://gohugo.io">Hugo</a> and the
+      <a href="https://github.com/shawnohare/hugo-tufte">Tufte theme</a>.
+    </p>
+  {{ end }}
+
+	<div class="copyright">
+	<p>
+    {{ with .Site.Params.copyright }}
+      {{ . | safeHTML }}
+    {{ else }}
+    {{ with .Site.Params.copyrightHolder }}{{ . }}{{end}}
+      All content on this website is dedicated to the public domain under <a href="https://creativecommons.org/publicdomain/zero/1.0/">CC0 1.0 Universal</a>.
+    {{end}}
+  </p>
+</div>
+</footer>
+{{ partial "body.includes.html" . }}
