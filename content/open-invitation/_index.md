@@ -10,4 +10,7 @@ I'm presently located in Montreal, Canada, but most happy working remotely. I ca
 
 ## Now
 [Right now](https://nownownow.com/about) I'm staying in Montreal for a while, and learning French.
+
+
+
 Last updated: 16 September 2018.
