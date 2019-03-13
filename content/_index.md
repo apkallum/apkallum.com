@@ -1,7 +1,7 @@
 +++
 title = "Home"
 +++
-Hi, my name is Karim. Like most people with a website on the internet, I'm a millennial who works in technology. 
+Like most people with a website on the internet, I'm a millennial who works in technology. 
 
 This website acts as a central repository for my technical & non-technical projects. For more information on myself and different sections on the website, see the [about section](/about).
 
