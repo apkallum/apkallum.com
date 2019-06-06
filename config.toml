@@ -25,22 +25,17 @@ subtitle = "“What do we want? GRADUAL CHANGE. When do we want it? IN DUE COURS
   identifier = "home"
   url = "/"
 [[menu.nav]]
-  name = "(B)log"
-  weight = -100 
-  identifier = "log"
-  url = "/log"
-[[menu.nav]]
   name = "Projects & Essays"
-  weight = -90 
+  weight = -100 
   identifier = "projects-and-essays"
   url = "/projects-and-essays"
 [[menu.nav]]
   name = "Open Invitation"
-  weight = -80
+  weight = -90
   identifier = "open-invitation"
   url = "/open-invitation"
 [[menu.nav]]
   name = "About"
-  weight = -70
+  weight = -80
   identifier = "about"
   url = "/about"
