@@ -24,11 +24,10 @@ code {
 }
 
 pre code {
-    width: 52.5%;
+    width: 100%;
     font-size: 1.2rem;
     padding-left: 2.5%;
     display: block;
-    overflow-x: scroll;
 }
 
 /*@media (max-width: 760px) {
